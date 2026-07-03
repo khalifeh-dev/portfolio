@@ -30,7 +30,7 @@ const Header = () => {
                     <li className="relative row-center w-full h-10 group">
 
                         <HiLanguage className="size-7 cursor-pointer" />
-                        <ul className="absolute top-0 left-14 w-24 h-fit rounded glass py-1.5 px-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
+                        <ul className="absolute top-0 left-14 w-25 h-fit rounded bg-background-box py-1.5 px-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
 
                             <li className="flex justify-between items-center w-full h-7 px-2 cursor-pointer text-sm">
 
