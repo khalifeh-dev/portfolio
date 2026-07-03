@@ -16,7 +16,7 @@ const RootLayout = ({
       lang="en"
       className={`h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col max-w-7xl px-4 tracking-tight">{children}</body>
+      <body className="min-h-full flex flex-col max-w-7xl px-4 tracking-tight font-rubik-medium">{children}</body>
     </html>
   );
 }

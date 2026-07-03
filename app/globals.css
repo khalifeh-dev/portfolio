@@ -14,6 +14,7 @@
 }
 
 @theme inline {
+  /* Colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-background-box: var(--background-box);
@@ -24,6 +25,24 @@
   --color-warning: var(--warning);
   --color-info: var(--info);
   --color-link: var(--link);
+
+  /* Fonts */
+  --font-rubik-bold: rubik-bold;
+  --font-rubik-medium: rubik-medium;
+  --font-rubik-regular: rubik-regular;
+}
+
+@font-face {
+  font-family: rubik-bold;
+  src: url("../public/fonts/Rubik/static/Rubik-Bold.ttf");
+}
+@font-face {
+  font-family: rubik-medium;
+  src: url("../public/fonts/Rubik/static/Rubik-Medium.ttf");
+}
+@font-face {
+  font-family: rubik-regular;
+  src: url("../public/fonts/Rubik/static/Rubik-Regular.ttf");
 }
 
 @layer utilities {
@@ -34,13 +53,13 @@
     @apply flex flex-col justify-center items-center;
   }
   .initial-before {
-    @apply before:content-[''] before:absolute
+    @apply before:content-[''] before:absolute;
   }
   .initial-after {
-    @apply after:content-[''] after:absolute
+    @apply after:content-[''] after:absolute;
   }
   .text-gradient {
-    @apply bg-linear-to-r from-[#3FE0E0] to-[#5600B3] bg-clip-text text-transparent
+    @apply bg-linear-to-r from-[#3FE0E0] to-[#5600B3] bg-clip-text text-transparent;
   }
 }
 

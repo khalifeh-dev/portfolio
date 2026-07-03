@@ -71,7 +71,7 @@ const Header = () => {
                     <li className="relative row-center group">
 
                         <AiOutlineHome className="size-7 cursor-pointer" />
-                        <span className="absolute top-2 left-14 row-center w-22 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
+                        <span className="absolute top-2 left-14 row-center w-24 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
                             Home
                         </span>
 
@@ -79,7 +79,7 @@ const Header = () => {
                     <li className="relative row-center group">
 
                         <LuUserRound className="size-7 cursor-pointer" />
-                        <span className="absolute top-2 left-14 row-center w-22 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
+                        <span className="absolute top-2 left-14 row-center w-24 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
                             About Me
                         </span>
 
@@ -87,7 +87,7 @@ const Header = () => {
                     <li className="relative row-center group">
 
                         <PiProjectorScreenChartLight className="size-7 cursor-pointer" />
-                        <span className="absolute top-2 left-14 row-center w-22 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
+                        <span className="absolute top-2 left-14 row-center w-24 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
                             Projects
                         </span>
 
@@ -95,7 +95,7 @@ const Header = () => {
                     <li className="relative row-center group">
 
                         <IoCodeSlashOutline className="size-7 cursor-pointer" />
-                        <span className="absolute top-2 left-14 row-center w-22 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
+                        <span className="absolute top-2 left-14 row-center w-24 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
                             Skills
                         </span>
 
@@ -103,7 +103,7 @@ const Header = () => {
                     <li className="relative row-center group">
 
                         <BsTelephone className="size-7 cursor-pointer" />
-                        <span className="absolute top-2 left-14 row-center w-22 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
+                        <span className="absolute top-2 left-14 row-center w-24 h-8 rounded bg-background-box p-1 invisible opacity-0 translate-y-2 transition-all duration-300 ease-in group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible">
                             Contact Me
                         </span>
 
