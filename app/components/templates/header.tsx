@@ -1,5 +1,6 @@
 "use client"
 
+import { useTheme } from "@/app/hooks/useTheme";
 import Image from "next/image";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
@@ -13,6 +14,7 @@ import { PiProjectorScreenChartLight } from "react-icons/pi";
 
 const Header = () => {
 
+    const { theme, setTheme } = useTheme()
 
     return (
 
@@ -24,7 +26,13 @@ const Header = () => {
 
                     <li className="row-center w-full h-10 *:size-7 *:cursor-pointer">
 
-                        <MdOutlineWbSunny />
+                        {
+                            theme === "dark" ? (
+                            <MdOutlineWbSunny onClick={() => setTheme("light")} />
+                            ) : (
+                            <LuMoon onClick={() => setTheme("dark")} />
+                            )
+                        }
 
                     </li>
                     <li className="relative row-center w-full h-10 group">
