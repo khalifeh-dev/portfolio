@@ -1,28 +1,24 @@
 import type { Metadata } from "next";
-import { Rubik } from "next/font/google";
 import "./globals.css";
-
-const rubik = Rubik({
-  variable: "--font-rubik",
-  subsets: ["latin"],
-})
 
 export const metadata: Metadata = {
   title: "Khalifeh-dev",
   description: "I'm full stack developer.",
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) => {
   return (
     <html
       lang="en"
-      className={`${rubik.variable} h-full antialiased`}
+      className={`h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col max-w-7xl px-4 tracking-tight">{children}</body>
     </html>
   );
 }
+
+export default RootLayout;
