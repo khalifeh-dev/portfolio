@@ -10,7 +10,7 @@ const Main = () => {
 
     return (
 
-        <main className="w-full col-center gap-y-5 px-4 py-2">
+        <main className="w-full col-center gap-y-15 px-14 py-2">
         
             <section className="relative row-center gap-x-5 w-full h-120">
 
@@ -93,6 +93,38 @@ const Main = () => {
                             </ul>
 
                         </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section className="relative row-center gap-x-5 w-full h-105 px-4">
+
+                <span className="absolute top-0 flex justify-center items-start gap-x-2 w-full h-10">Projects <TbArrowWaveRightDown className="size-7 text-secondary" /></span>
+
+                <div className="w-full h-88 mt-7">
+
+                    <div className="container size-full">
+
+                      <div className="first">
+
+                        <div className="size-full rounded-md shadow-[inset_0_0_8px_rgba(0,0,0,0.5)]"></div>
+
+                      </div>
+
+                      <div className="second">
+
+                        <div className="size-full rounded-md shadow-[inset_0_0_8px_rgba(0,0,0,0.5)]"></div>
+
+                      </div>
+
+                      <div className="third">
+
+                        <div className="size-full rounded-md shadow-[inset_0_0_8px_rgba(0,0,0,0.5)]"></div>
+
+                      </div>
 
                     </div>
 

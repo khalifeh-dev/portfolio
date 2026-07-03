@@ -73,3 +73,16 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 12px 12px; 
+  grid-template-areas: 
+    "first first second"
+    "third third third"; 
+}
+.first { grid-area: first; }
+.second { grid-area: second; }
+.third { grid-area: third; }
