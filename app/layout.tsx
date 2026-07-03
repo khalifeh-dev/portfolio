@@ -14,9 +14,9 @@ const RootLayout = ({
   return (
     <html
       lang="en"
-      className={`h-full antialiased`}
+      className={`row-center h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col max-w-7xl px-4 tracking-tight font-rubik-medium">{children}</body>
+      <body className="col-center w-full min-h-full max-w-7xl px-4 tracking-tight font-rubik-medium selection:text-secondary">{children}</body>
     </html>
   );
 }
