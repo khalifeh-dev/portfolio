@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="row-center w-full">
-      <nav className="relative col-center gap-y-3 w-14 h-dvh p-1 *:w-full *:rounded-md">
+      <nav className="fixed left-3 col-center gap-y-3 w-14 h-dvh p-1 *:w-full *:rounded-md z-40">
         <ul className="bg-background-box rounded-md">
           <li className="row-center w-full h-10 *:size-7 *:cursor-pointer">
             {theme === "dark" ? (
@@ -110,7 +110,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <section className="flex items-center gap-x-5 w-full h-140 *:w-1/2 *:h-120 px-4">
+      <section className="flex items-center gap-x-5 w-full h-140 *:w-1/2 *:h-120">
         <div className="col-center">
           <div className="flex flex-col gap-y-2">
             <h1 className="text-4xl">
