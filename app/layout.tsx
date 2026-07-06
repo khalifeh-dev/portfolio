@@ -16,7 +16,7 @@ const RootLayout = ({
       lang="en"
       className={`row-center antialiased`}
     >
-      <body className="col-center w-full min-h-full max-w-7xl px-4 tracking-tight font-rubik-medium selection:text-secondary">{children}</body>
+      <body className="col-center w-full min-h-full max-w-7xl px-4 tracking-tight font-rubik-medium selection:text-secondary overflow-x-hidden">{children}</body>
     </html>
   );
 }

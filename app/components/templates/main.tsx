@@ -1,9 +1,15 @@
+import { FaCss3Alt, FaHtml5, FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa";
 import { FaClover } from "react-icons/fa6";
 import { FcCandleSticks } from "react-icons/fc";
 import { IoInfinite } from "react-icons/io5";
-import { SiDreamstime } from "react-icons/si";
+import { SiDocker, SiDreamstime, SiExpress, SiGit, SiJest, SiMongodb, SiMui, SiNestjs, SiRadixui, SiRedis, SiRedux } from "react-icons/si";
 import { TbArrowWaveRightDown } from "react-icons/tb";
-
+import { AiOutlineDashboard } from "react-icons/ai";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
+import { DiPostgresql } from "react-icons/di";
+import { GrMysql } from "react-icons/gr";
+import Progress from "../common/progress";
 
 
 const Main = () => {
@@ -12,6 +18,7 @@ const Main = () => {
 
         <main className="w-full col-center gap-y-15 px-14 py-2">
         
+            {/* About Me */}
             <section className="relative row-center gap-x-5 w-full h-120">
 
                 <span className="absolute top-0 flex justify-center items-start gap-x-2 w-full h-10">About Me <TbArrowWaveRightDown className="size-7 text-secondary" /></span>
@@ -100,6 +107,7 @@ const Main = () => {
 
             </section>
 
+            {/* Projects */}
             <section className="relative row-center gap-x-5 w-full h-105 px-4">
 
                 <span className="absolute top-0 flex justify-center items-start gap-x-2 w-full h-10">Projects <TbArrowWaveRightDown className="size-7 text-secondary" /></span>
@@ -131,7 +139,7 @@ const Main = () => {
                 </div>
 
             </section>
-        
+            
         </main>
 
     )

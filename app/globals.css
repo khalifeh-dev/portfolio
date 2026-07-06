@@ -30,6 +30,10 @@
   --font-rubik-bold: rubik-bold;
   --font-rubik-medium: rubik-medium;
   --font-rubik-regular: rubik-regular;
+
+  --hex-width: 4.5rem;
+  --hex-height: 3.5rem;
+  --border-size: 0.0625rem;
 }
 
 @font-face {
@@ -75,14 +79,84 @@ body {
 }
 
 .container {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 12px 12px; 
-  grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px 12px;
+  grid-template-areas:
     "first first second"
-    "third third third"; 
+    "third third third";
 }
-.first { grid-area: first; }
-.second { grid-area: second; }
-.third { grid-area: third; }
+.first {
+  grid-area: first;
+}
+.second {
+  grid-area: second;
+}
+.third {
+  grid-area: third;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem 0.5;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "one one . two two"
+    "three three . four four"
+    "five five . six six";
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+
+.hex {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: rotate(90deg);
+} 
+
+.custom-color {
+  color: var(--progress-color);
+}
+
+.custom-bf-color::before {
+  content: '';
+  color: var(--progress-color);
+}
+
+.custom-bf-background-color::before {
+  content: '';
+  background-color: var(--progress-color);
+}
+
+.custom-background-color {
+  background-color: var(--progress-color);
+}
+
+.custom-border-color {
+  border-color: var(--progress-color);
+}
