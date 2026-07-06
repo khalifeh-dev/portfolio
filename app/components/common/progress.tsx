@@ -1,6 +1,7 @@
 import { AiOutlineDashboard } from "react-icons/ai";
 
 interface ProgressProps {
+    containerClassName: string
   name: string;
   color: string;
   icon: React.ReactNode;
@@ -8,12 +9,12 @@ interface ProgressProps {
   percentage: number
 }
 
-const Progress = ({ name, color, icon, skillLvl, percentage }: ProgressProps) => {
+const Progress = ({ name, color, icon, skillLvl, percentage, containerClassName }: ProgressProps) => {
   return (
-    <div className="one row-center p-4" style={{ '--progress-color': color } as React.CSSProperties}>
+    <div className={`row-center p-4 ${ containerClassName }`} style={{ '--progress-color': color } as React.CSSProperties}>
       <div className="relative size-full">
         <div className="absolute -top-15 left-3 row-center size-23 bg-background rounded-full p-2">
-          <div className="relative row-center size-full rounded-full shadow-[inset_0_0_8px_rgba(0,0,0,0.5)] initial-before before:size-5 custom-bf-background-color before:rounded-full before:blur-md">
+          <div className="relative row-center size-full rounded-full shadow-[inset_0_0_8px_rgba(0,0,0,0.5)] initial-before before:size-5 custom-bf-background-color before:rounded-full before:blur-md *:size-10">
             {icon}
           </div>
         </div>
