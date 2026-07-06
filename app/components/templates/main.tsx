@@ -188,6 +188,70 @@ const Main = () => {
             containerClassName="six"
           />
         </div>
+
+        <div className="col-center -space-y-8.75 w-full h-60 px-4 mt-10">
+          <span className="flex justify-center items-start gap-x-2 w-full h-10">
+            Other Skills{" "}
+            <TbArrowWaveRightDown className="size-7 text-secondary" />
+          </span>
+
+          <div className="col-center w-full -space-y-9 mt-10">
+            <ul className="flex gap-x-11 perspective-near *:relative *:w-14 *:h-16 *:bg-background-box *:shadow-[inset_0_0_4px_rgba(0,0,0,0.5)] *:cursor-pointer *:transition-transform *:duration-500 *:ease-out *:delay-100">
+              <li className="row-center hex hover:-translate-y-3">
+                <FaHtml5 className="size-10 -rotate-90 text-red-700" />
+              </li>
+              <li className="row-center hex hover:-translate-y-3">
+                <FaCss3Alt className="size-10 -rotate-90 text-blue-700" />
+              </li>
+            </ul>
+            <ul className="flex gap-x-11 *:relative *:w-14 *:h-16 *:bg-background-box *:shadow-[inset_0_0_4px_rgba(0,0,0,0.5)] *:cursor-pointer *:transition-transform *:duration-500 *:ease-out *:delay-100">
+              <li className="row-center hex hover:-translate-y-3 hover:-translate-x-1.75">
+                <SiMui className="size-8 -rotate-90 text-blue-600" />
+              </li>
+              <li className="row-center hex hover:scale-90">
+                <FaJsSquare className="size-10 -rotate-90 text-yellow-400" />
+              </li>
+              <li className="row-center hex hover:-translate-y-3 hover:translate-x-1.75">
+                <SiRedux className="size-9 -rotate-90 text-purple-700" />
+              </li>
+            </ul>
+          </div>
+          <div className="col-center w-full -space-y-8.75">
+            <ul className="flex gap-x-11 *:relative *:w-14 *:h-16 *:bg-background-box *:shadow-[inset_0_0_4px_rgba(0,0,0,0.5)] *:cursor-pointer *:transition-transform *:duration-500 *:ease-out *:delay-100">
+              <li className="row-center hex hover:-translate-x-3">
+                <FaNodeJs className="size-9.5 -rotate-90 text-green-600" />
+              </li>
+              <li className="row-center hex hover:scale-90">
+                <SiExpress className="size-9.5 -rotate-90" />
+              </li>
+              <li className="row-center hex hover:scale-90">
+                <GrMysql className="size-9 -rotate-90 text-blue-800" />
+              </li>
+              <li className="row-center hex hover:translate-x-3">
+                <SiMongodb className="size-9.5 -rotate-90 text-green-500" />
+              </li>
+            </ul>
+            <ul className="flex gap-x-10.75 *:relative *:w-14 *:h-16 *:bg-background-box *:shadow-[inset_0_0_4px_rgba(0,0,0,0.5)] *:cursor-pointer *:transition-transform *:duration-500 *:ease-out *:delay-100">
+              <li className="row-center hex hover:translate-y-3 hover:-translate-x-1.75">
+                <SiRedis className="size-9 -rotate-90 text-orange-600" />
+              </li>
+              <li className="row-center hex hover:scale-90">
+                <SiJest className="size-9 -rotate-90 text-red-800" />
+              </li>
+              <li className="row-center hex hover:translate-y-3 hover:translate-x-1.75">
+                <SiGit className="size-9 -rotate-90 text-orange-600" />
+              </li>
+            </ul>
+            <ul className="flex gap-x-10.75 *:relative *:w-14 *:h-16 *:bg-background-box *:shadow-[inset_0_0_4px_rgba(0,0,0,0.5)] *:cursor-pointer *:transition-transform *:duration-500 *:ease-out *:delay-100">
+              <li className="row-center hex hover:translate-y-3">
+                <SiDocker className="size-10 -rotate-90 text-blue-500" />
+              </li>
+              <li className="row-center hex hover:translate-y-3">
+                <SiRadixui className="size-9 -rotate-90" />
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
   );
